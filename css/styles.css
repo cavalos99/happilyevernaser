@@ -473,7 +473,6 @@ mark,
   color: black;
 }
 
-
 .column {
   float: left;
   width: 50%;
@@ -489,13 +488,25 @@ mark,
   width: 33.33%;
   /* padding: 5px; */
 }
-
+@media (min-width: 769px) {
 .accommodationColumn {
   float: left;
   width: 33.33%;
   padding: 50px;
 }
+}
 
+@media (min-width: 320px) {
+.accommodationImages {
+  width:80%;
+}
+}
+
+@media (min-width: 769px) {
+.accommodationImages {
+  width:130%;
+}
+}
 
 /* Clear floats after the columns */
 .row:after {
