@@ -450,10 +450,29 @@ mark,
 }
 .button:hover {
   text-decoration: none;
-  background-color: white;
+  background-color: #e8eae6;
   border-color: white;
   color: black;
 }
+
+.accommodationButton {
+  text-decoration: none;
+  background-color: #e8eae6;
+  border: 2px solid #e1b74d;
+  color: #e7dd84;
+  display: inline-block;
+  font-size: 0.7em;
+  padding: 8px;
+  transition: 0.35s;
+  border-radius: 20px;
+}
+.accommodationButton:hover {
+  text-decoration: none;
+  background-color: #e8eae6;
+  border-color: white;
+  color: black;
+}
+
 
 .column {
   float: left;
@@ -471,7 +490,7 @@ mark,
   /* padding: 5px; */
 }
 
-.accomodationColumn {
+.accommodationColumn {
   float: left;
   width: 33.33%;
   padding: 50px;
@@ -10062,5 +10081,5 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 130px 0;
 }
