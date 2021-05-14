@@ -436,6 +436,25 @@ mark,
   background-color: #fcf8e3;
 }
 
+/* new code */
+.column {
+  float: left;
+  width: 50%;
+}
+
+#column_container {
+    width: 959px;
+    margin: 0 auto;
+    text-align:center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
