@@ -483,15 +483,34 @@ mark,
     margin: 0 auto;
     text-align:center;
 }
+
 .hotelColumn {
   float: left;
   width: 33.33%;
   /* padding: 5px; */
 }
+
+#accommodations {
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.accommodationColumn {
+  background-color: #e8eae6;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+@media (min-width: 620px) {
+.accommodationColumn {
+  width: 100%;
+}
+}
+
 @media (min-width: 769px) {
 .accommodationColumn {
   float: left;
-  width: 33.33%;
+  width: 30%;
   padding: 50px;
 }
 }
@@ -499,12 +518,15 @@ mark,
 @media (min-width: 320px) {
 .accommodationImages {
   width:80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 }
 
 @media (min-width: 769px) {
 .accommodationImages {
-  width:130%;
+  width:100%;
 }
 }
 
