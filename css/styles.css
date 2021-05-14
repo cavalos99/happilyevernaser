@@ -446,6 +446,7 @@ mark,
   font-size: 1.3em;
   padding: 8px;
   transition: 0.35s;
+  border-radius: 20px;
 }
 .button:hover {
   text-decoration: none;
