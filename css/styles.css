@@ -501,13 +501,13 @@ mark,
   border-radius: 20px;
 }
 
-@media (min-width: 620px) {
+@media (min-width: 320px) {
 .accommodationColumn {
   width: 100%;
 }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 989px) {
 .accommodationColumn {
   float: left;
   width: 30%;
