@@ -533,7 +533,7 @@ mark,
 @media (min-width: 320px) {
 #divpic {
   background-position: -100px 0px;
-  width: 100%;
+  width: 150%;
   height: 70vh;
 }
 }
