@@ -530,21 +530,14 @@ mark,
 }
 }
 
-@media (max-width: 768px) {
-#divpic {
-  background-position: -250px -0;
-  width: 100%;
-  height: 90vh;
-}
-}
 
-/* @media (min-width: 769px) {
+@media (min-width: 1069px) {
 #divpic {
-  background-position: 0 -40px;
+  background-position: 0 -200px;
   width: 100%;
-  height: 90vh;
+  height: 70vh;
 }
-} */
+}
 
 /* @media only screen and (max-width: 767px) {
 #divpic { */
