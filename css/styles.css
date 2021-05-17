@@ -530,6 +530,21 @@ mark,
 }
 }
 
+@media (min-width: 320px) {
+#divpic {
+  background-position: -100px 0px;
+  width: 100%;
+  height: 70vh;
+}
+}
+
+@media (min-width: 700px) {
+#divpic {
+  background-position: 0 0;
+  width: 100%;
+  height: 70vh;
+}
+}
 
 @media (min-width: 1069px) {
 #divpic {
@@ -538,6 +553,7 @@ mark,
   height: 70vh;
 }
 }
+
 
 /* @media only screen and (max-width: 767px) {
 #divpic { */
