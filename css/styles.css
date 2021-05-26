@@ -516,19 +516,18 @@ mark,
 
 @media (max-width: 985px) {
 .accommodationColumn1:after {
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 62%; /* Change this to whatever width you want. */
-    padding-top: 20px; /* This creates some space between the element and the border. */
+    content: "";
+    display: block;
+    margin: 0 auto; /* Centers border. */
+    width: 62%;
+    padding-top: 20px;
     padding-bottom: 2em;
-    border-bottom: 1px solid #e8eae6; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 1px solid #e8eae6;
 }
 }
 
 @media (max-width: 985px) {
 .accommodationColumn2 {
-  /* border-bottom: 1px solid #e8eae6; */
   padding-top: 3em;
   padding-bottom: 2em;
 }
@@ -536,13 +535,13 @@ mark,
 
 @media (max-width: 985px) {
 .accommodationColumn2:after {
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto; /* This will center the border. */
-    width: 62%; /* Change this to whatever width you want. */
-    padding-top: 2em; /* This creates some space between the element and the border. */
+    content: "";
+    display: block;
+    margin: 0 auto; /* Centers border. */
+    width: 62%;
+    padding-top: 2em;
     padding-bottom: 2em;
-    border-bottom: 1px solid #e8eae6; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 1px solid #e8eae6;
 }
 }
 
