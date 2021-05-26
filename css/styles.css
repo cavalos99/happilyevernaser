@@ -465,7 +465,11 @@ mark,
   padding: 8px;
   transition: 0.35s;
   border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
 }
+
 .accommodationButton:hover {
   text-decoration: none;
   background-color: #e8eae6;
@@ -496,9 +500,43 @@ mark,
 }
 
 .accommodationColumn {
-  background-color: #e8eae6;
+  /* background-color: #e8eae6;
   border: 2px solid black;
-  border-radius: 20px;
+  border-radius: 20px; */
+  /* border-right: 1px solid #e8eae6; */
+}
+
+@media (max-width: 985px) {
+.accommodationColumn1 {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #e8eae6;
+}
+}
+
+@media (max-width: 985px) {
+.accommodationColumn2 {
+  border-bottom: 1px solid #e8eae6;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+}
+
+@media (max-width: 985px) {
+.accommodationColumn3 {
+  padding-top: 2em;
+}
+}
+
+@media (min-width: 986px) {
+.accommodationColumn1 {
+  border-right: 1px solid #e8eae6;
+}
+}
+
+@media (min-width: 986px) {
+.accommodationColumn2 {
+  border-right: 1px solid #e8eae6;
+}
 }
 
 @media (min-width: 320px) {
@@ -515,7 +553,7 @@ mark,
 }
 }
 
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
 .accommodationImages {
   width:80%;
   display: block;
@@ -528,7 +566,7 @@ mark,
 .accommodationImages {
   width:100%;
 }
-}
+} */
 
 /* @media only screen and (max-height: 600px) {
 #divpic {
