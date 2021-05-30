@@ -501,10 +501,8 @@ mark,
 }
 
 .accommodationColumn {
-  /* background-color: #e8eae6;
-  border: 2px solid black;
-  border-radius: 20px; */
-  /* border-right: 1px solid #e8eae6; */
+  /* background-color: #e8eae6; */
+  /* width:100%; */
 }
 
 /* @media (max-width: 985px) {
@@ -562,6 +560,7 @@ mark,
   border-right: 1px solid #e8eae6;
 }
 }
+
 
 @media (min-width: 320px) {
 .accommodationColumn {
@@ -911,6 +910,12 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+}
+
+@media (min-width: 985px) {
+  .row {
+    margin-right: -100px;
+  }
 }
 
 .no-gutters {
