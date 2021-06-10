@@ -733,7 +733,7 @@ mark,
 
 /* End modal styling */
 
-@supports (-webkit-touch-callout: none) {
+/* @supports (-webkit-touch-callout: none) {
 @media (min-width: 320px){
 #divpic {
   height: 30vh;
@@ -749,27 +749,46 @@ mark,
   background-size: cover;
 }
 }
-}
+} */
 
-@supports not (-webkit-touch-callout: none) {
-@media (min-width: 320px){
+@media (min-width: 320px) and (hover: none){
+#divpic {
+  height: 30vh;
+  background-size: 1000px;
+  /* background-attachment: fixed; */
+}
+}
+/* } */
+
+/* @supports not (-webkit-touch-callout: none) { */
+@media (min-width: 721px) and (hover: none){
+#divpic {
+  height: 60vh;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+}
+/* } */
+
+/* @supports not (-webkit-touch-callout: none) { */
+@media (min-width: 320px) and (hover: hover){
 #divpic {
   height: 30vh;
   background-size: 1000px;
   background-attachment: fixed;
 }
 }
-}
+/* } */
 
-@supports not (-webkit-touch-callout: none) {
-@media (min-width: 721px){
+/* @supports not (-webkit-touch-callout: none) { */
+@media (min-width: 721px) and (hover: hover){
 #divpic {
   height: 60vh;
   background-size: cover;
   background-attachment: fixed;
 }
 }
-}
+/* } */
 
 /* @supports (-webkit-touch-callout: none) {
 @media (min-width: 320px){
