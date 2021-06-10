@@ -747,6 +747,57 @@ mark,
 }
 }
 
+@media (min-width: 320px){
+#home {
+  height: 60vh;
+  background-size: 1000px;
+  background-position: -230px 500px;
+}
+}
+
+@media (min-width: 721px){
+#home {
+  height: 60vh;
+  background-size: cover;
+  background-position: 0 600px;
+}
+}
+
+@media (min-width: 320px){
+#websiteTitleName {
+  font-size:30px;
+  position: relative;
+  left: 90px;
+  top: 150px;
+}
+}
+
+@media (min-width: 320px){
+#websiteTitleDate {
+  position: relative;
+  left: 90px;
+  top: 150px;
+}
+}
+
+@media (min-width: 721px){
+#websiteTitleName {
+  font-size: 65px;
+  position: relative;
+  left: 190px;
+  top: 140px;
+}
+}
+
+@media (min-width: 721px){
+#websiteTitleDate {
+  font-size: 25px;
+  position: relative;
+  left: 190px;
+  top: 140px;
+}
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
