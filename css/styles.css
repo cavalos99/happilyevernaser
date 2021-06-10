@@ -771,7 +771,7 @@ mark,
 }
 }
 
-@supports (-webkit-touch-callout: none) {
+/* @supports (-webkit-touch-callout: none) {
 @media (min-width: 320px){
 #home {
   height: 60vh;
@@ -789,10 +789,30 @@ mark,
   background-position: 0 600px;
 }
 }
-}
+} */
 
-@supports not (-webkit-touch-callout: none) {
-@media (min-width: 320px){
+/* @supports not (-webkit-touch-callout: none) { */
+@media (min-width: 320px) and (hover: none){
+#home {
+  height: 60vh;
+  background-size: 1000px;
+  background-position: -300px 500px;
+  /* background-attachment: fixed; */
+}
+}
+/* } */
+/* @supports not (-webkit-touch-callout: none) { */
+@media (min-width: 721px) and (hover: none){
+#home {
+  height: 60vh;
+  background-size: cover;
+  background-position: 0 600px;
+  /* background-attachment: fixed; */
+}
+}
+/* } */
+
+@media (min-width: 320px) and (hover: hover){
 #home {
   height: 60vh;
   background-size: 1000px;
@@ -800,9 +820,9 @@ mark,
   background-attachment: fixed;
 }
 }
-}
-@supports not (-webkit-touch-callout: none) {
-@media (min-width: 721px){
+/* } */
+/* @supports not (-webkit-touch-callout: none) { */
+@media (min-width: 721px) and (hover: hover){
 #home {
   height: 60vh;
   background-size: cover;
@@ -810,7 +830,7 @@ mark,
   background-attachment: fixed;
 }
 }
-}
+/* } */
 
 @media (min-width: 320px){
 #websiteTitleName {
