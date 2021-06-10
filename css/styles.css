@@ -891,6 +891,10 @@ mark,
 }
 }
 
+html, body {
+  overflow-x: hidden !important;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
