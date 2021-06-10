@@ -753,7 +753,7 @@ mark,
   height: 60vh;
   background-size: 1000px;
   background-position: -300px 500px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 }
 
@@ -762,7 +762,7 @@ mark,
   height: 60vh;
   background-size: cover;
   background-position: 0 600px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 }
 
