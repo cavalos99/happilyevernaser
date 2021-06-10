@@ -737,7 +737,6 @@ mark,
 #divpic {
   height: 30vh;
   background-size: 1000px;
-  background-attachment: fixed;
 }
 }
 
@@ -745,6 +744,7 @@ mark,
 #divpic {
   height: 60vh;
   background-size: cover;
+  background-attachment: fixed;
 }
 }
 
@@ -753,7 +753,7 @@ mark,
   height: 60vh;
   background-size: 1000px;
   background-position: -300px 500px;
-  background-attachment: initial;
+  background-attachment: fixed;
 }
 }
 
