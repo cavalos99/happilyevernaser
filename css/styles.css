@@ -751,7 +751,7 @@ mark,
 #home {
   height: 60vh;
   background-size: 1000px;
-  background-position: -230px 500px;
+  background-position: -300px 500px;
 }
 }
 
@@ -765,18 +765,19 @@ mark,
 
 @media (min-width: 320px){
 #websiteTitleName {
-  font-size:30px;
+  font-size:25px;
   position: relative;
-  left: 90px;
-  top: 150px;
+  left: 60px;
+  top: 170px;
 }
 }
 
 @media (min-width: 320px){
 #websiteTitleDate {
+  font-size:15px;
   position: relative;
-  left: 90px;
-  top: 150px;
+  left: 60px;
+  top: 170px;
 }
 }
 
