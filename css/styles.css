@@ -733,18 +733,41 @@ mark,
 
 /* End modal styling */
 
+@supports (-webkit-touch-callout: none) {
 @media (min-width: 320px){
 #divpic {
   height: 30vh;
   background-size: 1000px;
 }
 }
+}
 
+@supports (-webkit-touch-callout: none) {
+@media (min-width: 721px){
+#divpic {
+  height: 60vh;
+  background-size: cover;
+}
+}
+}
+
+@supports not (-webkit-touch-callout: none) {
+@media (min-width: 320px){
+#divpic {
+  height: 30vh;
+  background-size: 1000px;
+  background-attachment: fixed;
+}
+}
+}
+
+@supports not (-webkit-touch-callout: none) {
 @media (min-width: 721px){
 #divpic {
   height: 60vh;
   background-size: cover;
   background-attachment: fixed;
+}
 }
 }
 
