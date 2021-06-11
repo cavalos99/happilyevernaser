@@ -443,14 +443,14 @@ mark,
   border: 2px solid #e1b74d;
   color: #e7dd84;
   display: inline-block;
-  font-size: 1.3em;
+  font-size: 1.1em;
   padding: 8px;
   transition: 0.35s;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 .button:hover {
   text-decoration: none;
-  background-color: #e8eae6;
+  background-color: gray;
   border-color: white;
   color: black;
 }
@@ -461,19 +461,18 @@ mark,
   border: 2px solid #e1b74d;
   color: #e7dd84;
   display: inline-block;
-  font-size: 0.7em;
+  font-size: 0.5em;
   padding: 8px;
   transition: 0.35s;
-  border-radius: 20px;
-  width:62%;
-  margin-left:19%;
-  margin-right:19%;
+  width:44%;
+  margin-left:28%;
+  margin-right:28%;
   text-align: center;
 }
 
 .accommodationButton:hover {
   text-decoration: none;
-  background-color: #e8eae6;
+  background-color: gray;
   border-color: white;
   color: black;
 }
