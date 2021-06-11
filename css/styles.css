@@ -968,6 +968,20 @@ html, body {
   clear: both;
 }
 
+@media screen and (max-width: 1299px) {
+  .navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .navbar-nav > li{
+    padding-left:40px;
+    padding-right:40px;
+  }
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
