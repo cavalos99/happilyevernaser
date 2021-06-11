@@ -439,27 +439,31 @@ mark,
 /* new code */
 .button {
   text-decoration: none;
-  background-color: #e8eae6;
-  border: 2px solid #e1b74d;
-  color: #e7dd84;
+  background-color: black;
+  border: 2px solid #e8eae6;
+  /* color: #e8eae6; */
   display: inline-block;
   font-size: 1.1em;
   padding: 8px;
   transition: 0.35s;
   /* border-radius: 20px; */
 }
+
 .button:hover {
   text-decoration: none;
-  background-color: gray;
-  border-color: white;
-  color: black;
+  background-color: #e8eae6;;
+  border-color: #e8eae6;;
 }
+
+.buttonText:hover {
+  color: black !important;
+}
+
 
 .accommodationButton {
   text-decoration: none;
-  background-color: #e8eae6;
-  border: 2px solid #e1b74d;
-  color: #e7dd84;
+  background-color: black;
+  border: 2px solid #e8eae6;
   display: inline-block;
   font-size: 0.5em;
   padding: 8px;
@@ -472,9 +476,8 @@ mark,
 
 .accommodationButton:hover {
   text-decoration: none;
-  background-color: gray;
-  border-color: white;
-  color: black;
+  background-color: #e8eae6;
+  border-color: #e8eae6;
 }
 
 @media (min-width: 989px) {
@@ -4499,6 +4502,7 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  box-shadow: 0 7px 6px -6px black;
 }
 .navbar .container,
 .navbar .container-fluid,
