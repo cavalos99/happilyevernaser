@@ -516,6 +516,30 @@ mark,
 }
 }
 
+@media (max-width: 985px) {
+.column2:after {
+    content: "";
+    display: block;
+    margin: 0 auto; /* Centers border. */
+    width: 62%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #e8eae6;
+}
+}
+
+@media (max-width: 986px) {
+.parkingRow {
+  margin-top: -50px;
+}
+}
+
+@media (min-width: 985px) {
+.parkingRow {
+    padding-top: 1em;
+}
+}
+
 #column_container {
     width: 959px;
     margin: 0 auto;
