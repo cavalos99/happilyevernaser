@@ -1,4 +1,3 @@
-document.cookie = "witcher=Geralt; SameSite=None; Secure"
 // Get the modal
 var modal = document.getElementById("myModal");
 
