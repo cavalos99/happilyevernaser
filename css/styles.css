@@ -483,6 +483,12 @@ mark,
   color: #e8eae6 !important;
 }
 
+@media (max-width: 985px) {
+#partyPic {
+  width:50% !important;
+}
+}
+
 .active-weddingPartyButton {
   text-decoration: none;
   background-color: black;
@@ -519,6 +525,69 @@ mark,
   to {
     opacity: 1;
   }
+}
+
+
+@media (max-width: 985px) {
+.weddingPartyColumn1 {
+  padding-top: 3em;
+  padding-bottom: 0em;
+}
+}
+
+@media (max-width: 985px) {
+.weddingPartyColumn2 {
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+}
+
+
+@media (max-width: 985px) {
+.weddingPartyColumn3 {
+  padding-top: 3em;
+  padding-top: 2em;
+}
+}
+
+@media (max-width: 985px) {
+.weddingPartyColumn4 {
+  padding-top: 3em;
+  padding-top: 2em;
+}
+}
+
+/* @media (min-width: 986px) {
+.weddingPartyColumn1 {
+  border-right: 1px solid black;
+}
+}
+
+@media (min-width: 986px) {
+.weddingPartyColumn2 {
+  border-right: 1px solid black;
+}
+}
+
+@media (min-width: 986px) {
+.weddingPartyColumn3 {
+  border-right: 1px solid black;
+}
+} */
+
+
+@media (min-width: 320px) {
+.weddingPartyColumn {
+  width: 100%;
+}
+}
+
+@media (min-width: 989px) {
+.weddingPartyColumn {
+  float: left;
+  width: 25%;
+  padding: 30px;
+}
 }
 
 /* .active-weddingPartyButtonText {
