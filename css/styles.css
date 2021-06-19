@@ -437,7 +437,7 @@ mark,
 }
 
 /* new code */
-.button {
+.detailsButton {
   text-decoration: none;
   background-color: black;
   border: 2px solid #e8eae6;
@@ -449,16 +449,81 @@ mark,
   /* border-radius: 20px; */
 }
 
-.button:hover {
+.detailsButton:hover {
   text-decoration: none;
-  background-color: #e8eae6;;
-  border-color: #e8eae6;;
+  background-color: #e8eae6;
+  border-color: #e8eae6;
 }
 
-.buttonText:hover {
+.detailsButtonText:hover {
   color: black !important;
 }
 
+.weddingPartyButton {
+  text-decoration: none;
+  background-color: #e8eae6;
+  border: 2px solid black;
+  color: black;
+  display: inline-block;
+  font-size: 1.1em;
+  padding: 8px;
+  transition: 0.35s;
+  font-family: Simonetta;
+  /* border-radius: 20px; */
+}
+
+.weddingPartyButton:hover {
+  text-decoration: none;
+  background-color: black;
+  border-color: black;
+  color: #e8eae6;
+}
+
+.weddingPartyButtonText:hover {
+  color: #e8eae6 !important;
+}
+
+.active-weddingPartyButton {
+  text-decoration: none;
+  background-color: black;
+  border-color: black;
+  color: #e8eae6 !important;
+}
+
+.tab-contents .tab {
+  display: none;
+}
+.tab-contents .tab.active {
+  display: block;
+  animation: fadeIn 2s;
+}
+
+.tab-contents .tab.active:out {
+  display: block;
+  animation: fadeOut 2s;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* .active-weddingPartyButtonText {
+  color: #e8eae6 !important;
+} */
 
 .accommodationButton {
   text-decoration: none;
@@ -478,6 +543,10 @@ mark,
   text-decoration: none;
   background-color: #e8eae6;
   border-color: #e8eae6;
+}
+
+.accommodationButtonText:hover {
+  color: black !important;
 }
 
 @media (min-width: 989px) {
@@ -970,15 +1039,15 @@ html, body {
 
 @media screen and (max-width: 1299px) {
   .navbar-nav > li{
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:8px;
+    padding-right:8px;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .navbar-nav > li{
-    padding-left:40px;
-    padding-right:40px;
+    padding-left:28px;
+    padding-right:28px;
   }
 }
 
