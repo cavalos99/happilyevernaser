@@ -441,11 +441,12 @@ mark,
   text-decoration: none;
   background-color: black;
   border: 2px solid #e8eae6;
-  /* color: #e8eae6; */
+  color: #e8eae6;
   display: inline-block;
   font-size: 1.1em;
   padding: 8px;
   transition: 0.35s;
+  font-family: Simonetta;
   /* border-radius: 20px; */
 }
 
@@ -453,10 +454,7 @@ mark,
   text-decoration: none;
   background-color: #e8eae6;
   border-color: #e8eae6;
-}
-
-.detailsButtonText:hover {
-  color: black !important;
+  color: black;
 }
 
 .weddingPartyButton {
@@ -469,7 +467,6 @@ mark,
   padding: 8px;
   transition: 0.35s;
   font-family: Simonetta;
-  /* border-radius: 20px; */
 }
 
 .weddingPartyButton:hover {
@@ -479,9 +476,6 @@ mark,
   color: #e8eae6;
 }
 
-.weddingPartyButtonText:hover {
-  color: #e8eae6 !important;
-}
 
 @media (max-width: 985px) {
 #partyPic {
@@ -606,17 +600,17 @@ mark,
   margin-left:28%;
   margin-right:28%;
   text-align: center;
+  color: #e8eae6;
+  font-family: Simonetta;
 }
 
 .accommodationButton:hover {
   text-decoration: none;
   background-color: #e8eae6;
   border-color: #e8eae6;
+  color: black;
 }
 
-.accommodationButtonText:hover {
-  color: black !important;
-}
 
 @media (min-width: 989px) {
 .column {
@@ -1073,6 +1067,16 @@ mark,
   top: 170px;
   font-weight: 600;
 }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  #websiteTitleName {
+    font-size:25px;
+    position: relative;
+    left: 60px;
+    top: 200px;
+    font-weight: 600;
+  }
 }
 
 @media (min-width: 721px){
