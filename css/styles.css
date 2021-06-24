@@ -551,24 +551,6 @@ mark,
 }
 }
 
-/* @media (min-width: 986px) {
-.weddingPartyColumn1 {
-  border-right: 1px solid black;
-}
-}
-
-@media (min-width: 986px) {
-.weddingPartyColumn2 {
-  border-right: 1px solid black;
-}
-}
-
-@media (min-width: 986px) {
-.weddingPartyColumn3 {
-  border-right: 1px solid black;
-}
-} */
-
 
 @media (min-width: 320px) {
 .weddingPartyColumn {
@@ -583,6 +565,37 @@ mark,
   padding: 30px;
 }
 }
+
+@media (max-width: 985px) {
+  .partyPicGroup1 {
+    margin-top:-20px;
+  }
+}
+
+@media (max-width: 985px) {
+  .partyPicGroup2 {
+    margin-top:-15px;
+  }
+}
+
+@media (max-width: 985px) {
+  .partyPicGroup3 {
+    margin-top:-20px;
+  }
+}
+
+@media (max-width: 985px) {
+  .partyPicGroup4 {
+    margin-top:-30px;
+  }
+}
+
+@media (max-width: 985px) {
+  .partyPicGroup5 {
+    margin-top:-10px;
+  }
+}
+
 
 /* .active-weddingPartyButtonText {
   color: #e8eae6 !important;
